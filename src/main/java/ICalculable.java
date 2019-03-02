@@ -1,6 +1,6 @@
 public interface ICalculable
 {
 
-        public double calculate ();
+        public double calculate (double a, double b);
 
 }
