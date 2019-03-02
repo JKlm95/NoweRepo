@@ -1,7 +1,6 @@
-public class ICalculable
+public interface ICalculable
 {
-    public double calculate()
-    {
-        return 0;
-    }
+
+        public double calculate ();
+
 }
