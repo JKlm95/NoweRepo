@@ -1,13 +1,16 @@
+import static java.lang.Math.pow;
+
 public class PowEquation implements ICalculable
 {
 
- int n;
-    int pow;
+    double n;
+    double pow;
 
 
 
-    public double calculate(double a, double b)
+    public double calculate(double pow, double n)
     {
-        return n^pow;
+        return Math.pow(pow, n);
+
     }
 }
